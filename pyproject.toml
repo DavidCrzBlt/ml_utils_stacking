@@ -2,9 +2,14 @@
 name = "ml-utils-stacking"
 version = "0.1.0"
 description = "Factory para ensamblar modelos y stacking"
-authors = [{name="David"}]
+authors = [{ name = "David" }]
+requires-python = ">=3.10"
 dependencies = []
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ml_utils_stacking*"]
