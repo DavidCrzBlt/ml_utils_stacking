@@ -1,13 +1,14 @@
 [project]
-name = "ml-utils-stacking"
+name = "ml_utils_stacking"
 version = "0.1.0"
 description = "Factory para ensamblar modelos y stacking"
 authors = [{name="David"}]
 dependencies = []
 
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-packages = ["ml_utils_stacking"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ml_utils_stacking*"]
