@@ -2,8 +2,7 @@
 name = "ml-utils-stacking"
 version = "0.1.0"
 description = "Factory para ensamblar modelos y stacking"
-authors = [{ name = "David" }]
-requires-python = ">=3.10"
+authors = [{name="David"}]
 dependencies = []
 
 [build-system]
